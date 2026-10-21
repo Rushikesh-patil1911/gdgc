@@ -1,0 +1,32 @@
+@media (max-width: 1279px) {
+  :root { --container: 1060px; }
+  .navbar { gap: 15px; }.brand { min-width: 220px; }.navbar__links { gap: 12px; }.nav-link { font-size: 10px; }
+  .hero-art { min-height: 380px; }.footer__inner { gap: 35px; }
+}
+@media (max-width: 1023px) {
+  :root { --nav-height: 68px; --container: 850px; }
+  .navbar__links { display: none; }.navbar__menu { display: inline-grid; }.navbar { justify-content: space-between; }.brand { margin-right: auto; }
+  .hero { min-height: 620px; }.hero__grid { grid-template-columns: 1fr 1fr; gap: 20px; }.hero-art { min-height: 340px; }.hero-art__cube { border-radius: 21px; }
+  .overview__layout { grid-template-columns: 1fr; gap: 40px; }.overview__intro { max-width: 700px; }.overview__concepts { max-width: 760px; width: 100%; }
+  .tech-row__inner { min-height: 260px; gap: 5%; }.tech-art { height: 220px; }
+  .event-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }.timeline-grid { gap: 16px; }.event-timeline__path { display: none; }
+  .footer__inner { grid-template-columns: 1.4fr 1fr 1fr; }.footer__contact { grid-column: 2 / 4; }
+  .contact-board { padding-inline: 5%; }.contact-form { padding: 24px; }
+}
+@media (max-width: 767px) {
+  :root { --nav-height: 62px; }
+  .container { width: min(100% - 36px, 560px); }.section { padding-block: 72px; }.section-heading { margin-bottom: 38px; }.section-title { font-size: clamp(1.9rem, 8vw, 2.7rem); }.desktop-break { display: none; }
+  .navbar { gap: 12px; }.navbar__menu,.theme-toggle { width: 36px; height: 36px; flex-basis: 36px; }.brand { gap: 8px; min-width: 0; }.brand__mark { font-size: 24px; }.brand__copy strong { font-size: 10px; }.brand__copy small { font-size: 8px; }
+  .hero { min-height: auto; padding: 68px 0 65px; }.hero__grid { grid-template-columns: 1fr; gap: 20px; }.hero h1 { font-size: clamp(2.45rem, 11vw, 3.4rem); }.hero__subtitle { margin-block: 17px 22px; font-size: 17px; }.hero__proof { margin-top: 27px; }.hero-art { min-height: 300px; width: 100%; }.hero-art__cube { width: 100px; border-radius: 20px; font-size: 25px; }.hero-art__cube--green { top: 8%; left: 14%; }.hero-art__cube--blue { top: 28%; right: 12%; }.hero-art__cube--yellow { bottom: 6%; left: 22%; }.hero-art__cube--red { top: 3%; right: 22%; width: 60px; }.hero-art__code { right: 4%; bottom: 2%; }.hero__scroll { display: none; }
+  .overview__layout { gap: 32px; }.overview__lead { font-size: 17px; }.overview__concepts { display: flex; flex-direction: column; gap: 10px; }.concept,.concept:nth-child(even) { min-height: 0; padding: 0; overflow: hidden; border-radius: 12px; transform: none; }.concept__trigger { padding: 16px 17px; border-radius: 0; font-size: 15px; }.concept__chevron { display: inline-block; }.concept__body { display: grid; grid-template-rows: 1fr; transition: grid-template-rows 220ms ease; }.concept__body p { min-height: 0; overflow: hidden; margin: 0; padding: 0 17px 16px; font-size: 12px; }.concept.is-collapsed .concept__body { grid-template-rows: 0fr; }.concept.is-collapsed .concept__body p { padding-bottom: 0; }.concept.is-collapsed .concept__chevron { transform: rotate(-90deg); }
+  .technologies { padding-top: 70px; }.tech-row { padding: 28px 0 35px; }.tech-row__inner,.tech-row__inner--reverse { grid-template-columns: 1fr; gap: 10px; }.tech-row__inner--reverse .tech-art,.tech-row__inner--reverse .tech-row__copy { order: initial; }.tech-art { height: 210px; }.tech-row__copy { max-width: 100%; text-align: center; }.tech-row__copy p { font-size: 13px; }.tech-row__copy .button { width: min(100%, 270px); }
+  .event-stats { gap: 5px; margin-bottom: 50px; }.event-stat strong { font-size: 2.15rem; }.event-stat span { font-size: .75rem; }.event-group { margin-top: 36px; }.event-grid,.timeline-grid { grid-template-columns: 1fr; gap: 16px; }.timeline-grid .event-card:nth-child(n) { margin-top: 0; }.event-card { max-width: 420px; width: 100%; margin-inline: auto; }.event-card__poster { aspect-ratio: 1 / .78; }.events__confetti { width: 75px; transform: scale(.7); }
+  .faq-grid { grid-template-columns: 1fr; gap: 13px; }.faq-card,.faq-card:nth-child(even) { min-height: 0; margin: 0; padding: 20px; border-radius: 15px; }.faq-card__question { font-size: 14px; }.faq-card__answer p { font-size: 12px; }.faq__email { width: 100%; }
+  .site-footer { padding-top: 75px; clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 100%); }.footer__inner { grid-template-columns: 1fr 1fr; gap: 32px 20px; padding-bottom: 35px; }.footer__brand { grid-column: 1 / -1; }.footer__contact { grid-column: 1 / -1; }.footer__bottom { gap: 12px; flex-direction: column; font-size: 10px; }.footer-decoration { top: 8px; right: 5%; transform: scale(.7); transform-origin: top right; }
+  .chat-widget { right: 15px; bottom: 15px; }.chat-launcher { width: 52px; height: 52px; }.chat-panel { position: fixed; inset: 0; width: 100vw; height: 100dvh; max-height: none; border-radius: 0; transform-origin: center; }.chat-open .chat-launcher { display: none; }
+  .back-to-top { right: 16px; bottom: 80px; width: 40px; height: 40px; }
+  .contact-hero { padding: 55px 0 60px; }.contact-hero__title { font-size: clamp(3.1rem, 15vw, 5rem); }.contact-hero__intro { margin: 16px auto 30px; font-size: 14px; }.contact-board { grid-template-columns: 1fr; gap: 15px; padding: 19px 15px 28px; border-radius: 24px; }.contact-form { padding: 22px 18px; border-radius: 18px; }.contact-illustration { min-height: 280px; }.contact-illustration__sun { width: 155px; height: 155px; }.contact-illustration__paper { left: 18%; width: 135px; height: 160px; }.contact-illustration__person { right: 20%; transform: scale(.88); transform-origin: bottom; }.contact-board__blob { right: 30%; bottom: -90px; width: 140px; height: 140px; }.sponsor-section { min-height: 430px; padding: 70px 0; }.sponsor-section__inner > p:not(.section-kicker) { font-size: 14px; }.sponsor-section__button { min-height: 54px; font-size: 17px; }.sponsor-orb { width: 160px; height: 160px; bottom: -100px; }.sponsor-orb--green { left: -75px; }.sponsor-orb--yellow { right: -75px; }
+}
+@media (max-width: 380px) {
+  .container { width: calc(100% - 28px); }.brand__copy strong { max-width: 165px; overflow: hidden; text-overflow: ellipsis; }.hero__actions { align-items: stretch; flex-direction: column; }.hero__actions .button { width: 100%; }.event-stats { grid-template-columns: 1fr 1fr 1fr; }.event-stat strong { font-size: 1.8rem; }.event-stat span { font-size: .65rem; }
+}

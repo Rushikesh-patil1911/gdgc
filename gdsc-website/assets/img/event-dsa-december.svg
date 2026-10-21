@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="46" y1="6" x2="568" y2="415" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#142A2C"/>
+      <stop offset="1" stop-color="#163C45"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="195" y1="74" x2="408" y2="254" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8F9E4"/>
+      <stop offset="1" stop-color="#34A853"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h600v420H0z"/>
+  <circle cx="301" cy="164" r="145" fill="#34A853" fill-opacity=".1"/>
+  <rect x="202" y="82" width="199" height="155" rx="23" fill="#071A20" stroke="#82DCA0" stroke-opacity=".6" stroke-width="2"/>
+  <rect x="215" y="95" width="173" height="129" rx="14" fill="url(#panel)" fill-opacity=".16"/>
+  <path d="M246 133h26m-26 24h57m-57 24h34m48-50 14 13-14 13m34-26 14 13-14 13" stroke="#A5F0BA" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+  <path d="m300 239-17 31h54l-17-31h-20Z" fill="#82DCA0"/>
+  <path d="M252 271h116" stroke="#82DCA0" stroke-linecap="round" stroke-width="9"/>
+  <circle cx="152" cy="146" r="31" stroke="#FBBC05" stroke-width="5"/>
+  <path d="M152 127v20l13 8" stroke="#FBBC05" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path d="m449 112 6 14 14 6-14 6-6 14-6-14-14-6 14-6 6-14Z" fill="#EA4335"/>
+  <path d="M45 306h510" stroke="#fff" stroke-opacity=".18"/>
+  <text x="48" y="339" fill="#9AD8AB" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="5">GDSC PRACTICE SESSION</text>
+  <text x="46" y="380" fill="#fff" font-family="Arial,sans-serif" font-size="38" font-weight="800" letter-spacing="2">DSA IN DECEMBER</text>
+  <text x="49" y="402" fill="#B6D8D2" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">THINK CLEARLY · SOLVE TOGETHER</text>
+</svg>

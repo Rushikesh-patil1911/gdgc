@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Google Developer Student Club at D.Y. Patil College of Engineering, Akurdi: learn, build, and grow together.">
+  <title>GDSC D.Y. Patil College of Engineering – Akurdi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/visual.css">
+  <script src="js/theme.js" defer></script>
+  <script src="js/nav.js" defer></script>
+  <script src="js/preloader.js" defer></script>
+  <script src="js/overview.js" defer></script>
+  <script src="js/events.js" defer></script>
+  <script src="js/faq.js" defer></script>
+  <script src="js/chatbot.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="preloader" aria-hidden="true">
+    <span class="preloader__mark"><b>&lt;</b><i>/</i><b>&gt;</b></span>
+    <span class="preloader__label">Building community<span>...</span></span>
+  </div>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <button class="icon-button navbar__menu" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-drawer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <a class="brand" href="#home" aria-label="GDSC D.Y. Patil College of Engineering home">
+        <svg class="brand__mark" viewBox="0 0 42 32" aria-hidden="true"><path d="M13 5 3 16l10 11" fill="none" stroke="#4285F4" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/><path d="m29 5 10 11-10 11" fill="none" stroke="#34A853" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/><path d="m24 4-7 24" fill="none" stroke="#EA4335" stroke-linecap="round" stroke-width="4"/><circle cx="21" cy="16" r="2.5" fill="#FBBC05"/></svg>
+        <span class="brand__copy"><strong>Google Developer Student Clubs</strong><small>D.Y. Patil College of Engineering – Akurdi</small></span>
+      </a>
+      <div class="navbar__links">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#overview">Overview</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#technologies">Technologies</a>
+        <a class="nav-link" href="#events">Events</a>
+        <a class="nav-link" href="#technologies">Learn</a>
+        <a class="nav-link" href="#team">Team</a>
+        <a class="nav-link" href="contact.html">About</a>
+      </div>
+      <button class="theme-toggle icon-button" type="button" aria-label="Switch to dark theme" title="Toggle color theme">
+        <svg class="theme-toggle__moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.1A8.5 8.5 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"/></svg>
+        <svg class="theme-toggle__sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+      </button>
+    </nav>
+  </header>
+  <div class="drawer-backdrop" data-drawer-close hidden></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile navigation" aria-hidden="true">
+    <div class="mobile-drawer__head">
+      <a class="brand" href="#home">
+        <svg class="brand__mark" viewBox="0 0 42 32" aria-hidden="true"><path d="M13 5 3 16l10 11" fill="none" stroke="#4285F4" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/><path d="m29 5 10 11-10 11" fill="none" stroke="#34A853" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/><path d="m24 4-7 24" fill="none" stroke="#EA4335" stroke-linecap="round" stroke-width="4"/><circle cx="21" cy="16" r="2.5" fill="#FBBC05"/></svg>
+        <span class="brand__copy"><strong>Google Developer Student Clubs</strong><small>D.Y. Patil College of Engineering</small></span>
+      </a>
+      <button class="icon-button mobile-drawer__close" type="button" aria-label="Close navigation menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-drawer__links" aria-label="Mobile navigation links">
+      <a class="drawer-link is-active" href="#home">Home</a><a class="drawer-link" href="#overview">Overview</a>
+      <a class="drawer-link" href="#projects">Projects</a><a class="drawer-link" href="#technologies">Technologies</a>
+      <a class="drawer-link" href="#events">Workshop</a><a class="drawer-link" href="contact.html">Contact us</a>
+      <a class="drawer-link" href="#team">Team</a><a class="drawer-link" href="contact.html">About</a>
+    </nav>
+    <div class="drawer-theme">
+      <p>Colour Scheme</p>
+      <div class="theme-segment" role="group" aria-label="Choose color scheme">
+        <button type="button" data-theme-choice="light">Light</button><button type="button" data-theme-choice="dark">Dark</button>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main">
+    <section class="hero section-anchor" id="home" aria-labelledby="hero-title">
+      <div class="hero__grid container">
+        <div class="hero__content reveal">
+          <p class="eyebrow"><span class="eyebrow__dot"></span> <span data-rotating-tagline>Learn. Build. Grow.</span></p>
+          <h1 id="hero-title">Google Developer<br><span class="google-word"><i>G</i><i>D</i><i>S</i><i>C</i></span> at D.Y. Patil</h1>
+          <p class="hero__subtitle">A community of curious minds creating a better future with technology.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#overview">Explore our community <span aria-hidden="true">↗</span></a>
+            <a class="button button--text" href="#events">Discover events <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero__proof"><span class="proof-dots" aria-hidden="true"><b></b><b></b><b></b><b></b></span><span>Powered by people. Inspired by possibility.</span></div>
+        </div>
+        <div class="hero-art reveal" aria-label="Abstract colorful coding shapes" role="img">
+          <div class="hero-art__halo"></div>
+          <div class="hero-art__cube hero-art__cube--green"><span>&lt;/&gt;</span></div>
+          <div class="hero-art__cube hero-art__cube--blue"><span>{ }</span></div>
+          <div class="hero-art__cube hero-art__cube--yellow"><span>01</span></div>
+          <div class="hero-art__cube hero-art__cube--red"><span>✳</span></div>
+          <div class="hero-art__orb"></div>
+          <div class="hero-art__code"><span>const</span> ideas = <b>"the future"</b>;</div>
+          <span class="hero-chip hero-chip--flutter">Flutter</span>
+          <span class="hero-chip hero-chip--firebase">Firebase</span>
+          <span class="hero-chip hero-chip--cloud">Cloud</span>
+          <span class="hero-chip hero-chip--ai">AI</span>
+          <span class="hero-chip hero-chip--web">Web</span>
+        </div>
+      </div>
+      <a class="hero__scroll" href="#overview"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="overview section section-anchor" id="overview" aria-labelledby="overview-title">
+      <div class="container overview__layout">
+        <div class="overview__intro reveal">
+          <p class="section-kicker">A community, not just a club</p>
+          <h2 class="section-title section-title--left" id="overview-title">Make technology<br><span>work for you.</span></h2>
+          <p class="overview__lead">We bring students together to learn, share, and build with Google technologies.</p>
+          <p class="body-copy">Google Developer Student Clubs are university-based communities for students interested in technology. At D.Y. Patil College of Engineering, we create a welcoming space to explore ideas, develop real-world skills, and turn curiosity into projects.</p>
+          <a class="inline-link" href="contact.html">Meet our community <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="overview__concepts" aria-label="About GDSC">
+          <article class="concept concept--green reveal">
+            <button class="concept__trigger" type="button" aria-expanded="true"><span>Concept of GDSC</span><span class="concept__chevron" aria-hidden="true">⌄</span></button>
+            <div class="concept__body"><p>GDSC is a grassroots community where students learn development skills and build solutions together.</p></div>
+          </article>
+          <article class="concept concept--orange reveal">
+            <button class="concept__trigger" type="button" aria-expanded="true"><span>Target Audience</span><span class="concept__chevron" aria-hidden="true">⌄</span></button>
+            <div class="concept__body"><p>Every student is welcome—from curious beginners to experienced developers ready for a new challenge.</p></div>
+          </article>
+          <article class="concept concept--blue reveal">
+            <button class="concept__trigger" type="button" aria-expanded="true"><span>Why GDSC?</span><span class="concept__chevron" aria-hidden="true">⌄</span></button>
+            <div class="concept__body"><p>Meet collaborators, learn by doing, and get the confidence to bring your next idea to life.</p></div>
+          </article>
+          <article class="concept concept--yellow reveal">
+            <button class="concept__trigger" type="button" aria-expanded="true"><span>More to explore</span><span class="concept__chevron" aria-hidden="true">⌄</span></button>
+            <div class="concept__body"><p>Join sessions, contribute to projects, and find your people in a supportive developer community.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="technologies section-anchor" id="technologies" aria-labelledby="technologies-title">
+      <div class="section-heading container reveal">
+        <p class="section-kicker">Find your next thing</p>
+        <h2 class="section-title" id="technologies-title">Technologies We Are<br class="desktop-break"> Excited About</h2>
+        <p class="section-subtitle">Opportunities to learn and access deep technical content.</p>
+      </div>
+      <div class="tech-list">
+        <article class="tech-row tech-row--green" id="projects">
+          <div class="tech-row__inner container">
+            <div class="tech-art tech-art--android" role="img" aria-label="Illustration of an Android-inspired robot"><span class="android-bot"><i></i><b></b><em></em></span><span class="art-spark art-spark--one">✦</span></div>
+            <div class="tech-row__copy"><h3><span>Android</span> Development</h3><p>Explore the world's most popular mobile platform. Build delightful apps, learn modern Android development, and keep up with exciting new releases.</p><a class="button button--outline" href="https://developer.android.com/courses" target="_blank" rel="noreferrer">CodeLabs <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+        <article class="tech-row tech-row--yellow">
+          <div class="tech-row__inner container tech-row__inner--reverse">
+            <div class="tech-art tech-art--web" role="img" aria-label="Illustration of a desktop browser"><div class="browser-art"><span></span><span></span><span></span><b>&lt;/&gt;</b></div><i class="art-plant"></i></div>
+            <div class="tech-row__copy"><h3><span>Web</span> Development</h3><p>Learn the foundations of a delightful web experience for users and developers. Try emerging tools with guided, hands-on coding activities.</p><a class="button button--outline" href="https://web.dev/learn/" target="_blank" rel="noreferrer">CodeLabs <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+        <article class="tech-row tech-row--blue">
+          <div class="tech-row__inner container">
+            <div class="tech-art tech-art--cloud" role="img" aria-label="Illustration of a cloud and connected devices"><div class="cloud-art"><span>☁</span><b>✦</b><i></i></div></div>
+            <div class="tech-row__copy"><h3><span>Cloud</span> Computing</h3><p>Discover cloud technologies and build for a world that demands agility and innovation. Connect data, insight, and action with cloud-native tools.</p><a class="button button--outline" href="https://cloud.google.com/learn" target="_blank" rel="noreferrer">CodeLabs <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+        <article class="tech-row tech-row--red">
+          <div class="tech-row__inner container tech-row__inner--reverse">
+            <div class="tech-art tech-art--ml" role="img" aria-label="Illustration of a friendly machine learning robot"><div class="ml-head"><span>✦</span><i></i><b></b></div><div class="ml-desk"></div></div>
+            <div class="tech-row__copy"><h3><span>Machine</span> Learning</h3><p>Give applications the ability to learn from experience. Explore the ideas and tools behind intelligent products that serve people better.</p><a class="button button--outline" href="https://developers.google.com/machine-learning" target="_blank" rel="noreferrer">CodeLabs <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+        <article class="tech-row tech-row--green">
+          <div class="tech-row__inner container">
+            <div class="tech-art tech-art--security" role="img" aria-label="Illustration of a shield protecting an app"><div class="shield-art"><span>✓</span></div><i class="shield-lock">●</i></div>
+            <div class="tech-row__copy"><h3><span>Cyber</span> Security</h3><p>As our digital world grows, so does the need to protect it. Learn the practices that help keep applications, data, and users safer.</p><a class="button button--outline" href="https://developers.google.com/learn/topics/security" target="_blank" rel="noreferrer">CodeLabs <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+        <article class="tech-row tech-row--yellow">
+          <div class="tech-row__inner container tech-row__inner--reverse">
+            <div class="tech-art tech-art--coding" role="img" aria-label="Illustration of a student coding at a desk"><div class="coding-screen">&lt;/&gt;</div><div class="coding-desk"></div><i></i></div>
+            <div class="tech-row__copy"><h3><span>Competitive</span> Programming</h3><p>Keep your programming sharp through thoughtful challenges. Practice problem solving, strengthen your logic, and learn alongside peers.</p><a class="button button--outline" href="https://codingcompetitions.withgoogle.com/" target="_blank" rel="noreferrer">CodeLabs <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="tech-marquee" aria-hidden="true"><div class="tech-marquee__track"><span>ANDROID</span><i>✳</i><span>WEB</span><i>✳</i><span>CLOUD</span><i>✳</i><span>MACHINE LEARNING</span><i>✳</i><span>CYBER SECURITY</span><i>✳</i><span>ANDROID</span><i>✳</i><span>WEB</span><i>✳</i><span>CLOUD</span><i>✳</i><span>MACHINE LEARNING</span><i>✳</i><span>CYBER SECURITY</span><i>✳</i></div></div>
+
+    <section class="events section section-anchor" id="events" aria-labelledby="events-title">
+      <div class="events__confetti events__confetti--left" aria-hidden="true"></div><div class="events__confetti events__confetti--right" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Learn it together</p>
+          <h2 class="section-title" id="events-title">Events <span class="google-blue">&</span> Workshops</h2>
+          <p class="section-subtitle">A little learning, a lot of building, and good people along the way.</p>
+        </div>
+        <div class="event-stats" aria-label="Community activity">
+          <div class="event-stat"><strong data-count="14">0</strong><span>Events</span></div>
+          <div class="event-stat"><strong data-count="10">0</strong><span>Workshops</span></div>
+          <div class="event-stat"><strong data-count="100" data-suffix="+">0</strong><span>Members</span></div>
+        </div>
+        <div class="event-group">
+          <div class="subsection-heading"><h3>Upcoming Events</h3><span></span></div>
+          <div class="event-grid" id="upcoming-events" aria-live="polite"></div>
+        </div>
+        <div class="event-group event-group--previous">
+          <div class="subsection-heading"><h3>Previous Events</h3><span></span></div>
+          <div class="event-timeline" id="event-timeline" aria-label="Previous events timeline">
+            <svg class="event-timeline__path" viewBox="0 0 1000 340" preserveAspectRatio="none" aria-hidden="true"><path d="M20 55 C190 55 210 280 380 280 S560 50 710 80 S850 290 980 280"/></svg>
+            <div class="timeline-grid" id="previous-events"></div>
+          </div>
+          <p class="events__note">More ideas, more events—our story is still being written.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section section-anchor" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Good questions</p><h2 class="section-title" id="faq-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Curious about joining us? Start here.</p>
+        </div>
+        <div class="faq-grid">
+          <article class="faq-card faq-card--red reveal"><button class="faq-card__question" type="button" aria-expanded="true">Who can become a member?<span aria-hidden="true">−</span></button><div class="faq-card__answer"><p>The club is open to any student—from novice developers just starting out to experienced builders looking to grow their skills.</p></div></article>
+          <article class="faq-card faq-card--blue reveal"><button class="faq-card__question" type="button" aria-expanded="true">How often do events and workshops happen?<span aria-hidden="true">−</span></button><div class="faq-card__answer"><p>We host regular hands-on sessions, workshops, and showcases. Join our community to hear about the next one.</p></div></article>
+          <article class="faq-card faq-card--green reveal"><button class="faq-card__question" type="button" aria-expanded="true">What should I bring to a workshop?<span aria-hidden="true">−</span></button><div class="faq-card__answer"><p>A laptop is useful for coding sessions. Bring your curiosity and enthusiasm—we'll take care of the rest.</p></div></article>
+          <article class="faq-card faq-card--yellow reveal"><button class="faq-card__question" type="button" aria-expanded="true">Who can I contact with questions?<span aria-hidden="true">−</span></button><div class="faq-card__answer"><p>We'd be happy to help. Send us a note and our team will get back to you as soon as possible.</p></div></article>
+        </div>
+        <a class="button button--primary faq__email" href="mailto:gdsc.dypcoe@gmail.com">Send us an email <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <aside class="social-rail" aria-label="Social media">
+    <a href="https://github.com/" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 19.5c-4 .9-4-2-5.6-2.5m11.2 5v-3.1a2.7 2.7 0 0 0-.8-2.1c2.7-.3 5.6-1.3 5.6-6.2a4.8 4.8 0 0 0-1.3-3.3 4.5 4.5 0 0 0-.1-3.3s-1-.3-3.4 1.3a11.8 11.8 0 0 0-6.2 0C5.2 3.7 4.2 4 4.2 4a4.5 4.5 0 0 0-.1 3.3 4.8 4.8 0 0 0-1.3 3.3c0 4.9 2.9 5.9 5.6 6.2a2.7 2.7 0 0 0-.8 2.1V22"/></svg></a>
+    <a href="https://www.linkedin.com/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9v10M5 5v.1M10 19v-6a4 4 0 0 1 8 0v6m-8-9v9"/></svg></a>
+    <a href="https://www.instagram.com/" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a>
+    <i></i>
+  </aside>
+  <footer class="site-footer section-anchor" id="team">
+    <div class="footer-decoration" aria-hidden="true"><span></span><i></i></div>
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="brand brand--footer" href="#home">        <svg class="brand__mark" viewBox="0 0 42 32" aria-hidden="true"><path d="M13 5 3 16l10 11M29 5l10 11-10 11M24 4l-7 24" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><circle cx="21" cy="16" r="2.5" fill="#fff"/></svg><span class="brand__copy"><strong>Google Developer<br>Student Clubs</strong><small>D.Y. Patil College of Engineering – Akurdi</small></span></a>
+        <p>Learn, build, and grow with a community that believes in what you can create.</p>
+        <div class="footer-socials"><a href="https://github.com/" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.2 19.5c-4 .9-4-2-5.6-2.5m11.2 5v-3.1a2.7 2.7 0 0 0-.8-2.1c2.7-.3 5.6-1.3 5.6-6.2a4.8 4.8 0 0 0-1.3-3.3 4.5 4.5 0 0 0-.1-3.3s-1-.3-3.4 1.3a11.8 11.8 0 0 0-6.2 0C5.2 3.7 4.2 4 4.2 4a4.5 4.5 0 0 0-.1 3.3 4.8 4.8 0 0 0-1.3 3.3c0 4.9 2.9 5.9 5.6 6.2a2.7 2.7 0 0 0-.8 2.1V22"/></svg></a><a href="https://www.linkedin.com/" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9v10M5 5v.1M10 19v-6a4 4 0 0 1 8 0v6m-8-9v9"/></svg></a><a href="https://www.instagram.com/" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></a><a href="https://x.com/" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 4 16 16M20 4 4 20"/></svg></a><a href="https://www.youtube.com/" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="4"/><path d="m10 9 5 3-5 3z"/></svg></a></div>
+      </div>
+      <div class="footer__column"><h2>Explore</h2><a href="#overview">Overview</a><a href="#technologies">Technologies</a><a href="#events">Events</a><a href="#faq">FAQs</a></div>
+      <div class="footer__column"><h2>Community</h2><a href="#projects">Projects</a><a href="#team">Our team</a><a href="contact.html">Contact us</a><a href="contact.html#sponsor">Sponsor us</a></div>
+      <div class="footer__contact"><h2>Keep in touch</h2><p>Have an idea or a question? We'd love to hear from you.</p><a class="footer__contact-link" href="mailto:gdsc.dypcoe@gmail.com">gdsc.dypcoe@gmail.com <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <div class="container footer__bottom"><span>© <span data-current-year></span> GDSC D.Y. Patil College of Engineering</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <div class="chat-widget">
+    <section class="chat-panel" aria-label="GDSC chat assistant" aria-hidden="true">
+      <header class="chat-panel__header"><span class="chat-avatar" aria-hidden="true">✳</span><span><strong>GDSC Assistant</strong><small>Here to help you explore</small></span><button class="icon-button chat-close" type="button" aria-label="Close chat"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></header>
+      <div class="chat-messages" aria-live="polite" aria-relevant="additions text"></div>
+      <form class="chat-form"><label class="sr-only" for="chat-input">Message the GDSC assistant</label><input id="chat-input" name="message" type="text" placeholder="Type here something..." autocomplete="off" required><button class="chat-send" type="submit" aria-label="Send message"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 4 18 8-18 8 3-8-3-8Zm3 8h15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg></button></form>
+    </section>
+    <button class="chat-launcher" type="button" aria-label="Open GDSC chat assistant" aria-expanded="false"><span aria-hidden="true">✳</span></button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="41" y1="4" x2="532" y2="421" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17213A"/>
+      <stop offset="1" stop-color="#3A286A"/>
+    </linearGradient>
+    <linearGradient id="compose" x1="214" y1="75" x2="393" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E2C7FF"/>
+      <stop offset=".48" stop-color="#A879F2"/>
+      <stop offset="1" stop-color="#6C5CE7"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h600v420H0z"/>
+  <circle cx="303" cy="164" r="145" fill="#A879F2" fill-opacity=".1"/>
+  <circle cx="303" cy="164" r="115" stroke="#D8C3FF" stroke-opacity=".28"/>
+  <rect x="235" y="96" width="136" height="136" rx="34" fill="url(#compose)" transform="rotate(-8 235 96)"/>
+  <path d="m275 139-24 22 24 22m56-44 24 22-24 22m-9-68-35 92" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+  <path d="m105 120 8 18 18 8-18 8-8 18-8-18-18-8 18-8 8-18Z" fill="#FBBC05"/>
+  <path d="m457 91 6 14 14 6-14 6-6 14-6-14-14-6 14-6 6-14Z" fill="#34A853"/>
+  <circle cx="451" cy="235" r="13" fill="#EA4335"/>
+  <path d="M45 296h510" stroke="#fff" stroke-opacity=".18"/>
+  <text x="48" y="334" fill="#D3C6F7" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="5">GDSC WORKSHOP</text>
+  <text x="46" y="378" fill="#fff" font-family="Arial,sans-serif" font-size="38" font-weight="800" letter-spacing="2">COMPOSE CAMP</text>
+  <text x="49" y="402" fill="#D2C8E8" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">DESIGN · CODE · CREATE</text>
+</svg>

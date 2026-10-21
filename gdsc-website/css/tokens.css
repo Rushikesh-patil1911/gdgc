@@ -1,0 +1,60 @@
+:root {
+  color-scheme: light;
+  --blue: #4285f4;
+  --red: #ea4335;
+  --green: #34a853;
+  --yellow: #fbbc05;
+  --orange: #c2410c;
+  --text: #171b24;
+  --text-muted: #687387;
+  --text-body: #465166;
+  --text-soft: #536078;
+  --text-faint: #536078;
+  --bg: #fff;
+  --bg-alt: #f6f8fc;
+  --bg-grey: #eef2f8;
+  --card: #fff;
+  --border: rgba(28, 42, 66, .11);
+  --footer-bg: #101827;
+  --footer-link: rgba(255, 255, 255, .68);
+  --shadow-nav: 0 10px 36px rgba(28, 42, 66, .08);
+  --shadow-card: 0 18px 50px rgba(28, 42, 66, .085);
+  --shadow-btn: 0 10px 25px rgba(66, 133, 244, .24);
+  --shadow-faq: 0 12px 34px rgba(28, 42, 66, .07);
+  --shadow-soft: 0 8px 26px rgba(28, 42, 66, .06);
+  --gradient-google: linear-gradient(105deg, #4285f4 0%, #34a853 34%, #a87900 67%, #ea4335 100%);
+  --gradient-hero: radial-gradient(ellipse at 16% 18%, rgba(66, 133, 244, .15), transparent 32%), radial-gradient(ellipse at 80% 22%, rgba(234, 67, 53, .09), transparent 28%), radial-gradient(ellipse at 74% 80%, rgba(52, 168, 83, .1), transparent 30%), radial-gradient(ellipse at 28% 78%, rgba(251, 188, 5, .12), transparent 27%);
+  --font-display: "Outfit", "DM Sans", system-ui, sans-serif;
+  --font-body: "DM Sans", "Open Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-rounded: var(--font-display);
+  --font-open: var(--font-body);
+  --container: 1145px;
+  --nav-height: 76px;
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius: var(--radius-sm);
+  --section-space: clamp(96px, 9vw, 140px);
+  --transition: 220ms ease;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --text: #f4f7fc;
+  --text-muted: #aeb9cc;
+  --text-body: #d0d8e6;
+  --text-soft: #d0d8e6;
+  --text-faint: #c0cbdd;
+  --bg: #0d1421;
+  --bg-alt: #121c2b;
+  --bg-grey: #1a2638;
+  --card: #172337;
+  --border: rgba(211, 225, 247, .13);
+  --footer-bg: #080e18;
+  --shadow-nav: 0 12px 40px rgba(0, 0, 0, .28);
+  --shadow-card: 0 22px 60px rgba(0, 0, 0, .28);
+  --shadow-faq: 0 14px 40px rgba(0, 0, 0, .2);
+  --shadow-soft: 0 10px 32px rgba(0, 0, 0, .2);
+  --gradient-hero: radial-gradient(ellipse at 16% 18%, rgba(66, 133, 244, .2), transparent 32%), radial-gradient(ellipse at 80% 22%, rgba(234, 67, 53, .13), transparent 28%), radial-gradient(ellipse at 74% 80%, rgba(52, 168, 83, .15), transparent 30%), radial-gradient(ellipse at 28% 78%, rgba(251, 188, 5, .13), transparent 27%);
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="36" y1="17" x2="559" y2="409" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12233D"/>
+      <stop offset="1" stop-color="#263E69"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="248" y1="87" x2="400" y2="264" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78B3FF"/>
+      <stop offset="1" stop-color="#4285F4"/>
+    </linearGradient>
+    <filter id="shadow" x="208" y="68" width="220" height="238" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h600v420H0z"/>
+  <circle cx="522" cy="38" r="118" fill="#4285F4" fill-opacity=".13"/>
+  <circle cx="71" cy="359" r="122" fill="#34A853" fill-opacity=".12"/>
+  <path d="M25 22h550v376H25z" stroke="#fff" stroke-opacity=".12" stroke-width="2" rx="30"/>
+  <g filter="url(#shadow)"><rect x="246" y="106" width="146" height="142" rx="36" fill="#4285F4" fill-opacity=".62"/></g>
+  <rect x="251" y="91" width="144" height="144" rx="35" fill="url(#tile)" transform="rotate(8 251 91)"/>
+  <path d="m285 151-20 17 20 17m46-34 20 17-20 17m-8-53-29 72" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="9"/>
+  <circle cx="442" cy="117" r="26" fill="#FBBC05"/>
+  <path d="m442 101 4.6 10.4L458 116l-11.4 4.6L442 132l-4.6-11.4L426 116l11.4-4.6L442 101Z" fill="#fff"/>
+  <circle cx="171" cy="174" r="18" fill="#EA4335"/>
+  <path d="m171 164 3 7 8 3-8 3-3 8-3-8-8-3 8-3 3-7Z" fill="#fff"/>
+  <rect x="89" y="264" width="422" height="1" fill="#fff" fill-opacity=".18"/>
+  <text x="64" y="309" fill="#fff" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="5">GDSC · D.Y. PATIL AKURDI</text>
+  <text x="64" y="355" fill="#fff" font-family="Arial,sans-serif" font-size="37" font-weight="800" letter-spacing="1">BUILD WITH US</text>
+  <text x="66" y="381" fill="#B8C8E2" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">LEARN TOGETHER. MAKE SOMETHING REAL.</text>
+</svg>
